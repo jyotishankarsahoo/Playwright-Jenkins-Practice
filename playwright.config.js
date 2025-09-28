@@ -11,7 +11,7 @@ export default defineConfig({
   reporter: 'html',
   use: {
     video: 'on-first-retry',
-    headless: false,
+    headless: true,
   },
 
   projects: [
